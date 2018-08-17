@@ -636,6 +636,9 @@ h1.arrow span {
 	border: 1px solid #E04343;
 	color: #E04343;
 }
+
+/* Hover for FONT AWESOME */
+
 .services .item:hover .icon {
 	background: #E04343;
 	border: 1px solid #E04343;
@@ -651,6 +654,25 @@ h1.arrow span {
 	transition:all .3s ease-out;
 	color:#fff;
 }
+
+/* HOVER FOR DEVICON */
+
+.services .item:hover .icon {
+	background: #E04343;
+	border: 1px solid #E04343;
+}
+.services .item [class*=devicon-og] {
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.services .item:hover [class*=devicon-og] {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: all .3s ease-out;
+	transition:all .3s ease-out;
+	color:#fff;
+}
+
 .features-wrapper {
 	margin:70px 0 0;
 }
