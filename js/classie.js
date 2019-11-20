@@ -1,7 +1,7 @@
 /*!
  * classie - class helper functions
  * from bonzo https://github.com/ded/bonzo
- * 
+ *
  * classie.has( elem, 'my-class' ) -> true/false
  * classie.add( elem, 'my-new-class' )
  * classie.remove( elem, 'my-unwanted-class' )
@@ -78,3 +78,47 @@ if ( typeof define === 'function' && define.amd ) {
 }
 
 })( window );
+
+// function solution(A) {
+//   var mas = 0 || 1;
+//
+//   for (var 1 = 0; 1 < A.length; 1++) {
+//     var int = A[1] === 1;
+//
+//     current = (mas % 2 ===1)? !int : ini;
+//     if (current == false) {
+//       mass++
+//       //for(var k = 1; k< A.length; k++) {
+//       //    A[k] = A[k] ===1 ? 0 : 1:
+//       // }
+//     }
+//     }
+//   }
+//   return mas
+// }
+//
+// var A = [2,1,3,5,4];
+// 
+// function solution(A){
+//
+// 	var B = new Array(A.length).fill();
+// 	var moments = 0;
+//
+// 	for (var i = 0; i < A.length; i++) {
+//
+// 		var j = A[i] - 1;
+// 		B[j] = 1;
+//
+// 		if (verifyMoment(B)){
+// 			moments++;
+// 		}
+//
+// 	}
+//
+// 	return moments;
+// }
+//
+// function verifyMoment(B){
+// 	var C = B.slice(0, B.lastIndexOf(1)+1)
+// 	return C.reduce((acc, next) => acc*next);
+// }
